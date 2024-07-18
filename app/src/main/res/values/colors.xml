@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar"></style>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#03A9F4</color>
+    <color name="blue1">#2281AC</color>
+    <color name="orange">#FF9800</color>
+    <color name="yellow">#F6CF08</color>
+    <style name="btntheme"  parent="Theme.AppCompat.Light.NoActionBar">
+       <item name="backgroundColor">@color/orange</item>
+
+    </style>
+    <color name = "lavender">#8692f7</color>
+</resources>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="15dp"
+    android:orientation="vertical"
+    android:layout_marginVertical="80dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/parrot_macaws"
+        android:layout_marginVertical="0dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/listimage"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/parrot2"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/macaws"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/listimage"
+            android:text="Macaws"
+            android:textColor="@color/lavender"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:id="@+id/nativegreen"
+        android:layout_marginVertical="100dp">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/green"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/native_green" />
+
+        <TextView
+            android:id="@+id/nativ"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/green"
+            android:text="Native Green "
+            android:textColor="@color/lavender"
+            android:textSize="20sp" />
+
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>

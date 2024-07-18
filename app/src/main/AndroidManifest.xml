@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.codewithom.petshopee">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Petshopee"
+        tools:targetApi="31">
+        <activity
+            android:name=".Zara"
+            android:exported="false" />
+        <activity
+            android:name=".Bruno"
+            android:exported="false" />
+        <activity
+            android:name=".Bunny"
+            android:exported="false" />
+        <activity
+            android:name=".Zoe"
+            android:exported="false" />
+        <activity
+            android:name=".native_green"
+            android:exported="false" />
+        <activity
+            android:name=".macows"
+            android:exported="false" />
+        <activity
+            android:name=".bombay_cat"
+            android:exported="false" />
+        <activity
+            android:name=".persian_cat"
+            android:exported="false" />
+        <activity
+            android:name=".buy"
+            android:exported="false" />
+        <activity
+            android:name=".cart"
+            android:exported="false" />
+        <activity
+            android:name=".rottweiler"
+            android:exported="false" />
+        <activity
+            android:name=".husky"
+            android:exported="false" />
+        <activity
+            android:name=".germanshephard"
+            android:exported="false" />
+        <activity
+            android:name=".labra_dog"
+            android:exported="false" />
+        <activity
+            android:name=".adoption"
+            android:exported="false" />
+        <activity
+            android:name=".parrot"
+            android:exported="false" />
+        <activity
+            android:name=".cat"
+            android:exported="false" />
+        <activity
+            android:name=".dog"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity_register4"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>

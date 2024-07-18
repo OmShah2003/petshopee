@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "882867495915",
+    "project_id": "fir-c879a",
+    "storage_bucket": "fir-c879a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882867495915:android:37dfd5ae5960fd53ddafae",
+        "android_client_info": {
+          "package_name": "com.codewithom.firebase_demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882867495915-me0vcn8rvpj2p90q57s49ki3hihgr1qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK7DMS6W3Us7fdVvbl4RmYkLrTZZ5nKxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882867495915-me0vcn8rvpj2p90q57s49ki3hihgr1qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:882867495915:android:da7f11daf29ebb84ddafae",
+        "android_client_info": {
+          "package_name": "com.codewithom.petshopee"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "882867495915-me0vcn8rvpj2p90q57s49ki3hihgr1qd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBK7DMS6W3Us7fdVvbl4RmYkLrTZZ5nKxs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "882867495915-me0vcn8rvpj2p90q57s49ki3hihgr1qd.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

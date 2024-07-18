@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<androidx.cardview.widget.CardView
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginStart="12dp"
+    android:layout_marginEnd="12dp"
+    android:layout_marginHorizontal="15dp"
+    android:orientation="vertical"
+    android:layout_marginVertical="80dp"
+    app:cardCornerRadius="20dp"
+    app:cardElevation="8dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginVertical="0dp"
+        android:id="@+id/zoe">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/listimage"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:layout_marginEnd="10dp"
+            android:rotation="90"
+            android:rotationX="-4"
+            android:scaleType="centerCrop"
+            android:src="@drawable/adopt1" />
+
+        <TextView
+            android:id="@+id/labra"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/listimage"
+            android:text="Hey! My name is Zoe"
+            android:textColor="@color/lavender"
+            android:textSize="20sp" />
+
+
+
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginVertical="100dp"
+        android:id="@+id/bunny">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/listimage2"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/adop2"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/german"
+            android:layout_width="200dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="25dp"
+            android:layout_toEndOf="@+id/listimage2"
+            android:text="Hey! My name is Bunny"
+            android:textColor="@color/lavender"
+            android:textSize="20sp" />
+
+
+    </RelativeLayout>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginVertical="200dp"
+        android:id="@+id/bruno">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/listimage3"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/adop3"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/husky"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="25dp"
+            android:text="Hey! My name is Bruno"
+            android:textColor="@color/lavender"
+            android:textSize="20sp"
+            android:layout_toEndOf="@+id/listimage3"/>
+
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginVertical="300dp"
+        android:id="@+id/zara">
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/listimage4"
+            android:layout_width="74dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:scaleType="centerCrop"
+            android:src="@drawable/adop4"
+            android:layout_marginEnd="10dp"/>
+
+        <TextView
+            android:id="@+id/rottweiler"
+            android:layout_width="200dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="70dp"
+            android:layout_marginTop="25dp"
+            android:text="Hey ! My name is Zara"
+            android:textColor="@color/lavender"
+            android:textSize="18sp"
+            android:layout_toEndOf="@+id/listimage4"/>
+
+
+
+    </RelativeLayout>
+
+
+
+
+</androidx.cardview.widget.CardView>

@@ -1,0 +1,125 @@
+<resources>
+    <string name="app_name">petshopee</string>
+    <string name="msg1"> Your Email</string>
+    <string name="msg2">Enter Password</string>
+
+    //Husky
+    <string name="Huskyformation">Husky
+\n age:3 years
+\n Life:10-12 years
+\n Color:Black/White
+\n Temperament:Playful,Clever
+\n Gender: male
+\n Origin:China
+\n Contact Now:1234567890
+\n Price:1Rs</string>
+    //Germanshepherd
+    <string name="Germanshepherdinformation">Germanshepherd
+\n age:2 years
+\n Life:12-15 years
+\n Color:Black
+\n Gender: Male
+\n Temperament:Intelligent,Loyal
+\n Origin:Germany
+\n Contact Now:1234567890
+\n Price:1Rs</string>
+    //Labradog
+    <string name="Labroinformation">Labradog
+\n age:1 years
+\n Life:12-15 years
+\n Color:white
+\n Gender: Male
+\n Temperament:Friendly,Kind
+\n Origin:United kingdom
+\n Contact Now:1234567890
+\n Price:1Rs</string>
+    //Rottweiler
+    <string name="Rottweilerinformation">Rottweiler
+\n age:2 years
+\n Life:12-16 years
+\n Color:Light Brown
+\n Gender:Male
+\n Temperament:Playful,Loyal
+\n Origin:Poland
+\n Contact Now:1234567890
+\n Price:1Rs</string>
+
+    //persian
+    <string name="persianinformation">persian
+\n age:2 years
+\n Life:12-17 years
+\n Color:White
+\n Temperament:gentle,playful
+\n Origin:Iran
+\n Contact Now:1234567890
+\n Price:1Rs</string>
+    //bombay
+    <string name="bombayinformation">bombay
+\n age:1 years
+\n Life:15-20 years
+\n Color:black
+\n Temperament:Friendly,Alert
+\n Origin:United states
+\n Contact Now:1234567890
+\n Price:1Rs</string>
+
+    //marcows
+    <string name="macawsinformation">macaws
+\n age:20 years
+\n Life:25-50 years
+\n Color:yellow/green shade
+\n Temperament:Playful,Active
+\n Origin:South America
+\n Contact Now:1234567890
+\n Price:1Rs</string>
+
+    //native green
+    <string name="native_green_information">Native Parrot
+\n age:15 years
+\n Life:25-30 years
+\n Color:green shade
+\n Temperament:Smart,get bored very quick
+\n Origin:Asia
+\n Contact Now:1234567890
+\n Price:1Rs</string>
+
+
+    //Zoe
+    <string name="Zoeinformation">Zoe
+\n Breed:Beagle
+\n Needs Loving Adopter
+\n Good with Kids
+\n Gender:Female
+        \n She is a friendly, loving and playful dog who loves to be around people.
+\n For more Enquire Contact:1234567890
+\n </string>
+    //Bunny
+    <string name="Bunnyinformation">Bunny
+\n Breed:Pug
+\n Needs Loving Adopter
+\n Good with Kids
+\n Gender:Male
+        \n DIET - VEGETARIAN VERY PLAYFUL FULLY VACCINATED
+\n For more Enquire Contact:1234567890
+\n </string>
+    //Bruno
+    <string name="Brunoinformation">Bruno
+\n Breed:Shih Tzu
+\n Needs Loving Adopter
+\n Good with Kids
+\n Gender:Male
+        \n Pet is lovely kind of nature
+\n For more Enquire Contact:1234567890
+\n </string>
+    //Zara
+    <string name="Zarainformation">Zara
+\n Breed:Persian
+\n Needs Loving Adopter
+\n Good with Kids
+\n Gender:Male
+        \n Its a white fur persian cat, likes to eat cat food and is very social.
+\n For more Enquire Contact:1234567890
+\n </string>
+
+
+</resources>
